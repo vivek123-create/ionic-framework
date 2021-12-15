@@ -1,0 +1,98 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  .tablerow {
+    border:1px solid rgb(71, 57, 57);
+  }
+ 
+ table, th, td {
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+  .table-color {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #bd7d29;
+  }
+  .acuq{
+    background-color: aqua;
+  }
+  table, th, td {
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+  th, td {
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+  th, td {
+    border-style: dotted;
+  }
+  .city {
+    background-color: tomato;
+    color: white;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+  }
+  .note {
+    font-size: 120%;
+    color: red;
+  }
+  #myHeader {
+    background-color: lightblue;
+    color: black;
+    padding: 40px;
+    text-align: center;
+  } 
+  /* Style the element with the id "myHeader" */
+#myHeader {
+    background-color: lightblue;
+    color: black;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  /* Style all elements with the class name "city" */
+  .city {
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+  } 
+ .bluecolor {
+    color: blue;
+  }
+  
+
+  h1 {
+    color: green;
+    text-align: right;
+  }
+  div {
+    border: 1px solid black;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    text-align: justify;
+  }
+  #myHeader {
+    background-color: lightblue;
+    color: black;
+    padding: 40px;
+    text-align: center;
+  } 
+  #my button {
+    
+  }

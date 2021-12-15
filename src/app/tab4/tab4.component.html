@@ -1,0 +1,31 @@
+<ion-header>
+<ion-toolbar>
+  <ion-title>We are on Tabs 4</ion-title>
+</ion-toolbar>
+</ion-header>
+<ion-content>
+
+      <ion-label>sign up</ion-label>
+
+  <ion-item>
+    <ion-input name="email" type="email" placeholder="your@email.com" ngModel required></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input name="password" type="password" placeholder="Password" ngModel required></ion-input>
+  </ion-item>
+  <ion-grid>
+    <ion-row>
+      <ion-input value="forgot password"></ion-input>
+      <ion-col> <ion-button (click)="login()">login</ion-button> </ion-col>
+      
+    </ion-row>
+  </ion-grid>
+<br>
+  <ion-col> <ion-button (click)="google()"> <img src="assets\img\Google__G__Logo.svg.png" style="width: 20px; height: auto;margin-top: -10px;">oogle</ion-button> </ion-col>
+  <ion-col> <ion-button (click)="facebook()"><img src="assets\img\facebook-f-logo-2019.png" style="width: 20px; height:auto;margin-top: -10px;">acebook </ion-button> </ion-col>
+</ion-content>
+<ion-footer>
+  <ion-button>save</ion-button>
+</ion-footer>
+ 
+  

@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>button</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+</ion-content>
+
+<!-- Input with placeholder -->
+<ion-input placeholder="enter your user name" [(ngModel)]="name"></ion-input>
+
+<!-- Input with clear button when there is a value -->
+<ion-input placeholder="enter your passward"  type="password" [(ngModel)]="passward"></ion-input>
+<ion-grid>
+  <ion-row>
+    <ion-input value="forgot password"></ion-input>
+    <ion-col> <ion-button (click)="login()">login</ion-button> </ion-col>
+    
+  </ion-row>
+</ion-grid>
+<ion-input value="create new account"></ion-input>
+
+
+
