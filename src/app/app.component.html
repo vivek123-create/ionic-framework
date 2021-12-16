@@ -7,9 +7,9 @@
     </ion-header>
     <ion-content>
       <ion-list>
-        <ion-item><ion-icon name="mail-outline"></ion-icon>INBOX</ion-item>
-        <ion-item><ion-icon name="mail-open-outline"></ion-icon>OUTBOX</ion-item>
-        <ion-item><ion-icon name="heart-outline"></ion-icon>FAVORITES </ion-item>
+        <ion-item [routerLink]="['user-list']"><ion-icon name="person-circle-outline"></ion-icon>YOUR ACCOUNT</ion-item>
+        <ion-item [routerLink]="['hardwork']"><ion-icon name="mail-open-outline"></ion-icon>OUTBOX</ion-item>
+        <ion-item [routerLink]="['user-list']"><ion-icon name="heart-outline"></ion-icon>FAVORITES </ion-item>
         <ion-item><ion-icon name="chevron-down-circle-outline"></ion-icon>ARCHIVED</ion-item>
         <ion-item><ion-icon name="trash-outline"></ion-icon>TRASH</ion-item>
         <ion-item><ion-icon name="alert-circle-outline"></ion-icon>SPAM</ion-item>

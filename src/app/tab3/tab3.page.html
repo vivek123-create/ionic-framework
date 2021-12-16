@@ -1,0 +1,41 @@
+
+<ion-header [translucent]="true">
+    <ion-toolbar>
+      <ion-title>
+        Tab 3
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content [fullscreen]="true">
+
+    <ion-button (click)=" presentAlertPrompt()">Show alert</ion-button>
+    
+    <ion-content>
+   
+    
+      <ion-list>
+        <ion-radio-group value="biff">
+          <ion-list-header>
+            <ion-label>Name</ion-label>
+          </ion-list-header>
+      
+          <ion-item>
+            <ion-label>vivek</ion-label>
+            <ion-radio slot="start" value="biff"></ion-radio>
+          </ion-item>
+      
+          <ion-item>
+            <ion-label>sandeep</ion-label>
+            <ion-radio slot="start" value="griff"></ion-radio>
+          </ion-item>
+      
+          <ion-item>
+            <ion-label>raygun</ion-label>
+            <ion-radio slot="start" value="buford"></ion-radio>
+          </ion-item>
+        </ion-radio-group>
+      </ion-list>
+    </ion-content>
+    
+    

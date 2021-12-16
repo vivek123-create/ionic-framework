@@ -1,0 +1,42 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Ionic Loader Examples
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content [fullscreen]="true">
+  <ion-button (click)="displayAutoLoader()" color="primary" expand="block">Show auto loader</ion-button>
+
+  <ion-button (click)="showLoader()" color="success" expand="block">Display loader</ion-button>
+
+  <ion-button (click)="hideLoader()" color="danger" expand="block">Close loader</ion-button>
+
+  <ion-button (click)="customizeLoader()" color="light" expand="block">Show customized loader</ion-button>
+
+  <ion-button (click)="presentActionSheet()">Show Alert</ion-button>
+  
+  
+</ion-content>
+
+<ion-tabs>
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="segment">
+      <ion-icon name="home"></ion-icon>
+    </ion-tab-button>
+    <ion-tab-button tab="button">
+      <ion-icon name="bag-outline"></ion-icon>
+      </ion-tab-button>
+      <ion-tab-button tab="tab1">
+        <ion-icon name="qr-code-outline"></ion-icon>
+      </ion-tab-button>
+      <ion-tab-button tab="tab2">
+        <ion-icon name="logo-paypal"></ion-icon>
+      </ion-tab-button>
+      <ion-tab-button tab="tab3">
+     <ion-icon name="card-outline"></ion-icon>
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
