@@ -7,26 +7,27 @@
             <h3>Create your account!</h3>
           </div>
           <div padding>
-            <ion-item>
-              <ion-input  name="first name" type="text" placeholder="first Name" ngModel required></ion-input>
-            </ion-item>
-            <ion-item>
-              <ion-input  name="Last name" type="text" placeholder="Last Name" ngModel required></ion-input>
-            </ion-item>
-            <ion-item>
-              <ion-input name="email" type="email" placeholder="your@email.com" ngModel required></ion-input>
-            </ion-item>
-            <ion-item>
-              <ion-input name="password" type="password" placeholder="Password" ngModel required></ion-input>
-            </ion-item>
-            <ion-item>
-              <ion-input name="confirm" type="password" placeholder="confirm password" ngModel required></ion-input>
-            </ion-item>
-          
-            <ion-item>
-              <ion-datetime displayFormat="DD MMM YYYY" placeholder="Select Date of Birth"></ion-datetime>
-            </ion-item>
-          
+            <form [formGroup]="VivekForm">
+              <ion-item>
+                <ion-input type="text" formControlName="firstname" placeholder="first Name"  ></ion-input>
+              </ion-item>
+              <ion-item>
+                <ion-input type="text" formControlName="lastname" placeholder="Last Name"  ></ion-input>
+              </ion-item>
+              <ion-item>
+                <ion-input type="email"  formControlName="email" placeholder="your@email.com"  ></ion-input>
+              </ion-item>
+              <ion-item>
+                <ion-input type="password"  formControlName="code" placeholder="Password"  ></ion-input>
+              </ion-item>
+              <ion-item>
+                <ion-input type="password"  formControlName="conformcode" placeholder="confirm password"  ></ion-input>
+              </ion-item>
+            
+              <ion-item>
+                <ion-datetime displayFormat="DD MMM YYYY"  (ionChange)="getDate($event)" formControlName="dateofbirth"  placeholder="Select Date of Birth"></ion-datetime>
+              </ion-item>
+            </form>          
             
            
           </div>
